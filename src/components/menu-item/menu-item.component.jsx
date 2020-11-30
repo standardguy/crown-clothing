@@ -1,4 +1,3 @@
-import { link } from "global-prefix";
 import React from "react";
 import { withRouter } from "react-router-dom";
 
