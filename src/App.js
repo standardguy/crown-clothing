@@ -9,17 +9,8 @@ import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.actions";
-import SingInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 
 class App extends React.Component {
-  // constructor() {
-  //   super();
-
-  //   this.state = {
-  //     currentUser: null,
-  //   };
-  // }
-
   unsuscribeFromAuth = null;
 
   componentDidMount() {
