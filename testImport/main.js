@@ -7,6 +7,11 @@ const addButton = (elemId) => {
   const targetParent = targetElem.parentNode;
   const buttonElem = createButton();
 
+  console.log("targetParent: %o", targetParent);
+  console.log("targetElem: %o", targetElem);
+  console.log("buttonElem: %o", buttonElem);
+
   targetParent.insertBefore(buttonElem, targetElem);
 };
+console.log("Calling addButton() with '%o'", elemId);
 addButton(elemId);
