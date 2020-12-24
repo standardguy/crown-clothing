@@ -9,3 +9,4 @@ const addButton = (elemId) => {
 
   targetParent.insertBefore(buttonElem, targetElem);
 };
+addButton(elemId);
