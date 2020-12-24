@@ -1,7 +1,7 @@
 import createButton from "./button.js";
 
 const addButton = (elemId) => {
-  const targetElem = elemId ? document.getElementById(elemId) : document.html;
+  const targetElem = elemId ? document.getElementById(elemId) : document.body;
   const buttonElem = createButton();
-  document.body.insertBefore(buttonElem, targetElem);
+  targetElem.parentNode.insertBefore(buttonElem, targetElem);
 };

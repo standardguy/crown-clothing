@@ -1,4 +1,4 @@
-const createButton = (elemId) => {
+const createButton = () => {
   const wrapper = document.createElement("div");
   wrapper.id = "button-wrapper";
   const button = document.createElement("button");
