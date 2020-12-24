@@ -13,5 +13,5 @@ const addButton = (elemId) => {
 
   targetParent.insertBefore(buttonElem, targetElem);
 };
-console.log("Calling addButton() with '%o'", elemId);
-addButton(elemId);
+console.log("Calling addButton()");
+addButton();
