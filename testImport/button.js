@@ -3,7 +3,8 @@ const createButton = (elemId) => {
   wrapper.id = "button-wrapper";
   const button = document.createElement("button");
   button.textContent = "Send Auth";
-  return wrapper.appendChild(button);
+  wrapper.appendChild(button);
+  return wrapper;
 };
 
 export default createButton;

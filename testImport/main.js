@@ -5,5 +5,3 @@ const addButton = (elemId) => {
   const buttonElem = createButton();
   document.body.insertBefore(buttonElem, targetElem);
 };
-
-addButton();
