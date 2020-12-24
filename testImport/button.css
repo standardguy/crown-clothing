@@ -1,5 +1,11 @@
 #button-wrapper {
   width: 100px;
-  height: 100px;
+  height: 50px;
   background: #ccc;
+  overflow: hidden;
+}
+
+#button-wrapper button {
+  margin: 14px auto;
+  display: block;
 }
