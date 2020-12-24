@@ -1,4 +1,4 @@
-import createButton from "./button";
+import createButton from "./button.js";
 
 const addButton = (elemId) => {
   const targetElem = elemId ? document.getElementById(elemId) : document.html;
